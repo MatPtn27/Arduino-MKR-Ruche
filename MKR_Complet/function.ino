@@ -86,7 +86,7 @@ start start;
 void demarrage() {
   start.lora();    //Démarrage LoRa
   start.dht22();   //Démarrage DHT22
-  //start.bme280();  //Démarrage BME280
+  start.bme280();  //Démarrage BME280
   //start.hx711();   //Démarrage HX711
   start.res();  //Démarrage LDR
 }
@@ -154,7 +154,7 @@ void recup_donnees() {
   delay(1000);
 
   recup.dht22_int();
-  //recup.bme280_ext();
+  recup.bme280_ext();
   //recup.hx711_pds();
   recup.res_lux();
 

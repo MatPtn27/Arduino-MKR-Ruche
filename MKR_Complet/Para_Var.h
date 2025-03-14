@@ -44,13 +44,14 @@ float te = 0;   //Température extérieure
 float ti = 0;   //Température intérieure
 
 float pr = 0;   //Pression
-float mapLux(int sensorValue) {
+int mapLux(int sensorValue) {
   if (sensorValue < 200) return 0; // Très sombre
-  else if (sensorValue < 400) return sensorValue * 0.5; // Faible lumière
-  else if (sensorValue < 600) return sensorValue * 1.5; // Lumière moyenne
-  else return sensorValue * 3; // Lumière intense
+  else if (sensorValue < 400) return 1; // Faible lumière
+  else if (sensorValue < 600) return 2; // Lumière moyenne
+  else if (sensorValue < 800) return 3; // Lumière forte
+  else return 4;  // Lumière intense
 }
-float lux = 0;  //Intensité lumineuse en lux 
+int lux = 0;  //Intensité lumineuse en lux 
 
 float pds = 0;  //Poids
 
