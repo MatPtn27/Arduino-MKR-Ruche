@@ -30,4 +30,4 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 
 ## Mise en Service
 
-![alt text](.Images/ruche_essai.png)
+![Image générée par IA - Illustration de ruche connectée](.Images/ruche_connectee.webp "Image générée par IA - Illustration de ruche connectée")
