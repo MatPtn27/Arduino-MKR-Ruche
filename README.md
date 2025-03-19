@@ -40,6 +40,7 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 
 ## Mise en Service
 
+<!-- Un texte sera placé ici quand le guide de mise en service aura été créer en "pdf" (version finale) -->
 ---
 
-&copy; PROJET RUCHE - 2025 - BTS CIEL LPO VLF. Tous droits réservés.
+&copy; 2025 - PROJET RUCHE - BTS CIEL - LPO VLF. Tous droits réservés.
