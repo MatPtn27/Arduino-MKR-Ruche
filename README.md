@@ -26,7 +26,7 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 
 ## Technologies utilisées
 
-- Arduino MKR WAN 1310
+- Arduino MKR WAN 1310 ![alt text](.Images/mkr50px.png)
 - Raspberry Pi
 - Passerelle LoraWAN SenseCAP M2
 - Réseau LoraWAN
