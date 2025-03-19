@@ -7,7 +7,7 @@
 - [Introduction](#introduction)
 - [Fonctionnalités](#fonctionnalités)
 - [Technologies utilisées](#technologies-utilisées)
-- [Mise en service](#mise-en-service)
+<!-- - [Mise en service](#mise-en-service)-->
 
 ## Introduction
 
