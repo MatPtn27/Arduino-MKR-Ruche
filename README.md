@@ -29,3 +29,5 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 - Réseau LoraWAN
 
 ## Mise en Service
+
+![alt text](.Images/ruche_essai.png)
