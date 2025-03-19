@@ -1,5 +1,7 @@
 # Arduino-MKR-Ruche
 
+![Image générée par IA - Illustration de ruche connectée](.Images/ruche_connectee.webp "Image générée par IA - Illustration de ruche connectée")
+
 ## Table des matières
 
 - [Introduction](#introduction)
@@ -29,5 +31,3 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 - Réseau LoraWAN
 
 ## Mise en Service
-
-![Image générée par IA - Illustration de ruche connectée](.Images/ruche_connectee.webp "Image générée par IA - Illustration de ruche connectée")
