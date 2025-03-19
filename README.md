@@ -39,3 +39,7 @@ Vous retrouverez également des fichiers de schémas et de circuits électroniqu
 ![Logo LoRaWAN](.Images/lorawan.png)
 
 ## Mise en Service
+
+---
+
+&copy; PROJET RUCHE - 2025 - BTS CIEL LPO VLF. Tous droits réservés.
