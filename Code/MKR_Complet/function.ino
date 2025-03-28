@@ -28,13 +28,14 @@ public:
 
     int connected = modem.joinOTAA(appEui, appKey);
     if (!connected) {
-      Serial.println("Un problème est survenu lors de la connexion. Ressayer !");
+      Serial.println("Un problème est survenu lors de la connexion. Ressayez !");
       while (1) {}
     }
     Serial.println("Connexion au serveur The Things Network réussie");
 
     // Set poll interval to 60 secs.
     modem.minPollInterval(60);
+    delay(1000);
   }
 
   //Démarrage et configuration du DHT22
@@ -54,8 +55,7 @@ public:
     delay(500);
     if (!bme.begin(0x76)) {  // Adresse I2C du BME280 (par défaut souvent 0x76 ou 0x77)
       Serial.println("Erreur : Capteur BME280 introuvable ! Vérifiez les connexions.");
-      while (1)
-        ;  // Boucle infinie si le capteur n'est pas détecté
+      while (1){}  // Boucle infinie si le capteur n'est pas détecté
     }
 
     Serial.println("Capteur BME280 détecté avec succès !");
@@ -84,6 +84,7 @@ start start;
 //Fonction de démarrage des modules et capteurs
 
 void demarrage() {
+  delay(1000);
   start.lora();    //Démarrage LoRa
   start.dht22();   //Démarrage DHT22
   start.bme280();  //Démarrage BME280
@@ -99,13 +100,13 @@ public:
 
   //Module de fonction pour la température et l'humidité extérieure
   void dht22_int() {
-    he = dht.readHumidity();
+    hi = dht.readHumidity();
     te = dht.readTemperature();
   }
 
   //Module de fonction pour la température, l'humidité et la pression intérieure
   void bme280_ext() {
-    hi = bme.readHumidity();
+    he = bme.readHumidity();
     ti = bme.readTemperature();
     pr = bme.readPressure() / 100.0F;
   }
@@ -178,6 +179,8 @@ void recup_donnees() {
   Serial.println("");
   Serial.println("Panneau Solaire : ");
   Serial.println("Luminosité : " + msg_lux);
+  Serial.println(String(analogRead(A1)));
+
   delay(500);
 }
 
