@@ -1,7 +1,7 @@
 # Arduino-MKR-Ruche
 
 ![Image générée par IA - Illustration de ruche connectée](.Images/ruche_connectee.webp "Image générée par IA - Illustration de ruche connectée")
-"Image générée par IA - Illustration de ruche connectée"
+Image générée par IA
 
 ## Table des matières
 
