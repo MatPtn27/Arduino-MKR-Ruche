@@ -7,6 +7,7 @@
 //------------------------------------------------------------------------------
 //Importation des bibliothèques "constructeurs"
 
+#include <Arduino.h>
 #include <MKRWAN.h> //Bibliothèque nécessaire aux fonctionnalités propres à l'Arduino MKR WAN1310
 #include <Wire.h> //Bibliothèque pour la connexion I2C
 #include <DHT.h> //Bibliothèque pour le DHT
