@@ -3,7 +3,7 @@
 
   Ce fichier est une bibliothèque de bibliothèques, il permet de simplifier la navigation dans les fichiers.
 */
-
+#pragma once
 //------------------------------------------------------------------------------
 //Importation des bibliothèques "constructeurs"
 

@@ -78,7 +78,7 @@ public:
   }
 };
 
-start start;
+start start; //Ouverture de la classe start
 
 //------------------------------------------------------------------------------
 //Fonction de démarrage des modules et capteurs
@@ -117,6 +117,7 @@ public:
     delay(500);
     pds = scale.get_units(5);
     delay(500);
+    scale.power_down();
   }
 
   //Module de fonction pour la luminosité
@@ -126,9 +127,7 @@ public:
   }
 };
 
-//------------------------------------------------------------------------------
-//Classe
-recup recup;  //Ouverture de la classe
+recup recup; //Ouverture de la classe recup
 
 //------------------------------------------------------------------------------
 //Fonction transform() : Fonction servant à convertir les variables de données des capteurs de float à string afin de permettre la transmission

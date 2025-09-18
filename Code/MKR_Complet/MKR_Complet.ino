@@ -29,5 +29,5 @@ void loop() {
   delay(1000);
   lora_sender();
 
-  delay(30000);  //Délai de 15 minutes avant la nouvelle boucle du programme
+  delay(30000);
 }

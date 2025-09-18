@@ -29,7 +29,7 @@ DHT dht(DHTPIN, DHTTYPE);
 //------------------------------------------------------------------------------
 //Définition des paramètres nécessaires pour le HX711 (Balance)
 
-#define calibration_factor -7050.0 //This value is obtained using the SparkFun_HX711_Calibration sketch
+#define calibration_factor -7050.0 //On obtient ce facteur de calibration en pesant un objet de poids connu
 
 #define DOUT  5
 #define CLK  4
